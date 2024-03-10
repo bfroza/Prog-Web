@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="../css/postagem.css">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="nav-bar">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="postagem.html">Postagens</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </header>
+  <div class="container">
+    <main id="posts-container">
+      <div id="form"> 
+        <h1 id="h_form">Postar momentos</h1>
+        <h2 id="h2_form">Sonhar aos ventos</h2>
+        <article class="post">
+          <form id="form-postagem">
+            <input class="input" name="titulo" type="text" placeholder="Título da postagem" required maxlength="60">
+            <input class="input" name="imagem" type="file" placeholder="Imagem da postagem" required>
+            <select id="select" name="tagsID" class="js-example-basic-single" required>
+              <option value="" disabled selected>Selecione a tag</option>
+              <option value="">Plantas</option>
+              <option value="">Natureza</option>
+              <option value="">Floresta</option>
+              <option value="">Viagem</option>
+            </select>
+            <input class="input" name="desc_imagem" type="text" placeholder="Descrição da imagem" required>
+            <input class="input" name="autor" type="text" placeholder="Autor da postagem" required>
+            <textarea class="input" name="descricao" id="descricao" cols="30" rows="8" placeholder="Descrição da postagem" required></textarea>
+            <div class="button-container">
+              <button class="button">Postar</button>
+            </div>
+          </form>
+        </article>
+      </div>
+    </main>
+    
+  </div>
+  <footer id="footer">
+    <h2>Blog</h2>
+    <p>Registrando momentos</p>
+    <p>2024 © Bruno Froza</p>
+  </footer>
+</body>
+</html>

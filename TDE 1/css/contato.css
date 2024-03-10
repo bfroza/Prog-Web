@@ -1,0 +1,122 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.4s;
+  }
+  
+  a:hover {
+    color: #37a1f7;
+  }
+  
+
+  li{
+    cursor: pointer;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-bar li{
+    padding: 0 1% 0 1%;
+    
+}
+
+.nav-bar li a:hover{
+    color: #266dd0;
+}
+
+.nav-bar ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
+}
+.nav-bar{
+    text-align: center;
+
+}
+
+.title{
+    text-align: center;
+    padding: 1% 1% 5% 1%;
+}
+  td a{
+    color: black;
+  }
+a{
+    text-decoration: none;
+}
+  #footer{
+    border-top: 2px solid #ddd;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  #footer h2,
+  #footer p{
+    margin-bottom: 1rem;;
+  }
+
+  
+  @media(max-width: 450px){
+    .container{
+      flex-wrap: wrap;
+    }
+    
+  }
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1650px;
+    margin: 0 auto;
+}
+.contato h1{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contato table{
+    margin-bottom: 140px;
+}
+table {
+    max-width: 1650px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+.contato tr{
+    font-size: large;
+}
+th, td {
+    
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    cursor:auto;
+    
+}
+
+th {
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
+
+th a{
+    cursor: pointer;
+}

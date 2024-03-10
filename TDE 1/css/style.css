@@ -8,6 +8,9 @@ body{
     background-color: white;
 }
 
+a{
+    text-decoration: none;
+}
 .container{
     padding: 2.3%  6% 0% 6%;
     background-color: rgb(126, 124, 124);
@@ -19,6 +22,9 @@ body{
 
 li{
     cursor: pointer;
+}
+li a{
+    color: black;
 }
 
 .page{
@@ -33,6 +39,7 @@ li{
 .nav-bar li a:hover{
     color: #266dd0;
 }
+
 .nav-bar ul{
     list-style: none;
     text-align: center;
@@ -41,6 +48,11 @@ li{
     flex-direction: row;
     padding: 1%;
 }
+.nav-bar{
+    text-align: center;
+
+}
+
 .page{
     border-radius: 24px;
 }
@@ -144,11 +156,11 @@ a{
 .text_{
     height: 50%;
     padding: 10px;
-    font-size: 14px;
+    font-size: 0.9rem;
     text-align: justify;
 }
 .poster_{
-    height: 60%;
+    height: 50%;
     
 }
 
@@ -164,6 +176,9 @@ margin: 0;
 }
 .text_{
     padding-top: 3%;
+}
+.text_ h3{
+    font-size: 13px;
 }
 
 .local{
@@ -184,3 +199,57 @@ margin: 0;
   #footer p{
     margin-bottom: 1rem;;
   }
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+      padding: 2.3% 3% 0% 3%;
+    }
+    .postagem {
+      width: 100%;
+      margin: 1% 0;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 576px) {
+    .postagem {
+      height: auto; 
+    }
+  }
+  
+ 
+  @media only screen and (min-width: 1250px) {
+    .container {
+      padding: 2.3% 10% 0% 10%;
+    }
+}
+  
+
+  @media only screen and (max-width: 1250px) {
+    .title {
+      font-size: 1.1rem;
+    }
+    .text h1 {
+      font-size: 1rem;
+    }
+    .text p {
+      font-size: 14px;
+    }
+    .tag ul{
+        padding: 1% 2% 1% 5px ;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .postagens {
+      flex-direction: column; 
+    }
+  }
+  
+ 
+  @media only screen and (min-width: 768px) {
+    .postagens {
+      flex-direction: row; 
+    }
+  }
+  
