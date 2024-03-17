@@ -105,5 +105,12 @@ li a{
       font-size: 14px;
     }
     
-   
+    .nav-bar{
+        padding: 2%;
+    }
+
+    .nav-bar li{
+        padding: 0 3% 0 3%;
+        
+    }
   }

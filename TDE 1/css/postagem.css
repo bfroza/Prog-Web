@@ -146,4 +146,13 @@ select:hover {
     #form {
         width: 90%; 
     }
+
+    .nav-bar{
+        padding: 2%;
+    }
+
+    .nav-bar li{
+        padding: 0 3% 0 3%;
+        
+    }
 }

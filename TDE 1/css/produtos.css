@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0% 8.5% 0% 7%;
+    background-color: rgb(126, 124, 124);
+    margin: 0;
+    height: 100%;
+    display: flex;
+}
+
+li {
+    cursor: pointer;
+}
+
+li a {
+    color: black;
+}
+
+.page {
+    display: block;
+    border-radius: 12px;
+}
+
+.nav-bar li {
+    padding: 0 1% 0 1%;
+}
+
+.nav-bar li a:hover {
+    color: #266dd0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.nav-bar {
+    text-align: center;
+}
+
+.page {
+    border-radius: 24px;
+}
+
+.produts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 0 auto;
+    padding-left: 3%;
+    
+}
+
+.list-produts:hover{
+    transform: scale(1.02);
+    transition: transform ease-in-out 400ms;
+}
+.list-produts {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.3%;
+    flex-basis: calc(32.6% - 40px);
+    justify-content: space-around;
+    transition: transform ease-in-out 400ms;
+    
+}
+
+.list-produts img {
+    height: 50%;
+    width: 60%;
+    padding: 1%;
+}
+
+#title {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.desc {
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    padding: 1% 1% 2% 1%;
+}
+
+.desc h4 {
+    padding: 1%;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+.desc a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #266dd0;
+}
+.desc p {
+    padding: 1%;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#footer {
+    border-top: 2px solid #ddd;
+    padding: 2rem;
+    text-align: center;
+}
+
+#footer h2,
+#footer p {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 430px) {
+    .produts {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        padding: 0% 1% 0% 1%;
+    }
+
+    .list-produts {
+        height: 90%;
+        width: 90%;
+    }
+
+    .produts {
+        padding-left: 6%;
+    }
+
+    .nav-bar {
+        padding: 2%;
+    }
+
+    .nav-bar li {
+        padding: 0 3% 0 1%;
+    }
+}
