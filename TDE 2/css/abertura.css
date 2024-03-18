@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0% 8.5% 0% 7%;
+    background-color: rgb(126, 124, 124);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+li {
+    cursor: pointer;
+}
+
+li a {
+    color: black;
+}
+
+.page {
+    display: block;
+    border-radius: 12px;
+}
+
+.nav-bar li {
+    padding: 0 1% 0 1%;
+}
+
+.nav-bar li a:hover {
+    color: #266dd0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.nav-bar {
+    text-align: center;
+}
+
+.container iframe {
+    width: 70%;
+    height: 68%; 
+    margin: 2% 0% 6% 0; 
+
+}
+
+.container h2 {
+    text-align: center;
+    padding: 2%;
+    font-size: 3rem;
+}
+
+#title {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    opacity: 0.9;
+}
+
+#footer {
+    border-top: 2px solid #ddd;
+    padding: 2rem;
+    text-align: center;
+}
+
+#footer h2,
+#footer p {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .container iframe {
+        width: 90%; 
+        height: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .container {
+        padding: 0% 1% 0% 1%;
+    }
+
+    .nav-bar {
+        padding: 2%;
+        font-size: 12px;
+    }
+
+    .nav-bar li { 
+        padding: 0 3% 0 1%;
+    }
+
+    
+}

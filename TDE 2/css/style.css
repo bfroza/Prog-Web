@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 2.3%  6% 0% 6%;
+    background-color: rgb(126, 124, 124);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    
+}
+
+li{
+    cursor: pointer;
+}
+li a{
+    color: black;
+}
+
+.page{
+    display: block;
+    border-radius: 12px;
+}
+.nav-bar li{
+    padding: 0 1% 0 1%;
+    
+}
+
+.nav-bar li a:hover{
+    color: #266dd0;
+}
+
+.nav-bar ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
+}
+.nav-bar{
+    text-align: center;
+
+}
+
+.page{
+    border-radius: 24px;
+}
+.poster{
+    height: 40%;
+    background-image: url(../img/floresta.jpg);
+    object-fit: cover;
+    background-position: center;
+    padding-bottom: 0%;
+}
+
+.text{
+    height: 40%;
+    background-color: white;
+    text-align: center;
+    padding: 1% 3% 1% 3%;
+
+}
+
+.text p{
+    padding: 1%;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.autor{
+    padding: 1% 4%  1% 5px;
+}
+.text h3,h4,h5{
+    text-align: start;
+    padding: 10px;
+    font-weight: 0;
+    
+}
+
+
+
+.text h1{
+    font-weight: bold;
+    font-style: italic;
+}
+.tag ul{
+    display: flex;
+    padding: 1% 4%  1% 5px;
+    justify-content: start;
+    width: 25%;
+
+   
+}
+
+
+.tag li{
+    border-radius: 6px;
+    list-style: none;
+    border: 2px  solid rgb(126, 124, 124) ;
+    padding: 2px 4px 2px 4px;
+    margin: 2%;
+    background-color:#d6cbcb;
+}
+
+.tag li:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: transform ease-in-out 400ms;
+}
+.postagens{
+    background-color: rgb(126, 124, 124);
+    height: auto;
+    padding: 0% 5% 5%  5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.postagem{
+    background-color: white;
+    height: 300px;
+    width: 35%;
+    margin: 1%;
+    height: 470px;
+    transition: transform ease-in-out 400ms;
+    cursor: pointer;
+}
+
+.postagem:hover{
+    transform: scale(1.02);
+    transition: transform ease-in-out 400ms;
+    opacity: 0.9;
+}
+.postagem img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.text_{
+    height: 50%;
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+.poster_{
+    height: 50%;
+    
+}
+
+.autor_{
+    text-align: start;
+}
+.autor_ h3,h4,h5{
+    font-size: 13px;
+}
+
+.autor_ h3{
+margin: 0;
+}
+.text_{
+    padding-top: 3%;
+}
+.text_ h3{
+    font-size: 13px;
+}
+
+.local{
+    padding-left: 0;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#footer{
+    border-top: 2px solid #ddd;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #footer h2,
+  #footer p{
+    margin-bottom: 1rem;;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+      padding: 2.3% 3% 0% 3%;
+    }
+    .postagem {
+      width: 100%;
+      margin: 1% 0;
+    }
+    .nav-bar{
+        padding: 2%;
+        font-size: 12px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 576px) {
+    .postagem {
+      height: auto; 
+    }
+    .tag ul {
+        padding: 0.5% 1% 0.5% 5px;
+    }
+  }
+  
+ 
+  @media only screen and (min-width: 1250px) {
+    .container {
+      padding: 2.3% 10% 0% 10%;
+    }
+}
+  
+
+  @media only screen and (max-width: 1250px) {
+    .title {
+      font-size: 1.1rem;
+    }
+    .text h1 {
+      font-size: 1rem;
+    }
+    .text p {
+      font-size: 14px;
+    }
+    .tag ul{
+        padding: 1% 2% 1% 5px ;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .postagens {
+      flex-direction: column; 
+    }
+  }
+  
+ 
+  @media only screen and (min-width: 768px) {
+    .postagens {
+      flex-direction: row; 
+    }
+  }
+  
